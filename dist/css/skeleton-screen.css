@@ -1,15 +1,55 @@
+/*!
+ * Skeleton Screen v1.0.0 (https://github.com/maximosojo/skeleton-screen)
+ * Copyright 2019 Máximo Sojo
+ * Licensed under MIT (https://github.com/maximosojo/skeleton-screen/blob/master/LICENSE)
+ */
+
+ /**
+  * Images
+  */    
 .skeleton-img{
-    float: left;
+    /* float: left; */
     width: 10rem;
     height: 10rem;
-    background-color: #ccc;            
-    margin: 8px;
+    background-color: #ccc;
+    margin: .25rem;
+    display: inline-block;
 }
-
 .skeleton-img.rounded{
-    border-radius: 25%;
+    border-radius: 2rem!important;
+}
+.skeleton-img.circle{
+    border-radius: 5rem!important;
 }
 
-.skeleton-img.circle{
-    border-radius: 50%;
+/**
+ * Buttons
+ */
+.skeleton-btn{
+    color: #ccc;
+    background: #ccc;
+    border: 0;
+    font-size: 2rem;/* Optimizar */
+    margin: .25rem;
+    cursor: auto!important;
 }
+.skeleton-btn:focus {
+    outline:0;
+}
+.skeleton-btn.rounded{
+    border-radius: .25rem!important;
+}
+
+/**
+ * Line
+ */
+ .skeleton-line{
+    background: #ccc;
+    float: left;
+    width: 8rem;
+    height: 1rem;
+    margin: .25rem;
+ }
+ .skeleton-line.rounded{
+    border-radius: .25rem!important;
+ }
