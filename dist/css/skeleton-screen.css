@@ -8,12 +8,10 @@
   * Images
   */    
 .skeleton-img{
-    /* float: left; */
     width: 10rem;
     height: 10rem;
     background-color: #ccc;
     margin: .25rem;
-    display: inline-block;
 }
 .skeleton-img.rounded{
     border-radius: 2rem!important;
@@ -45,7 +43,6 @@
  */
  .skeleton-line{
     background: #ccc;
-    float: left;
     width: 8rem;
     height: 1rem;
     margin: .25rem;

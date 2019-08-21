@@ -2,12 +2,13 @@
     padding: 1.5rem;
     margin-right: 0;
     margin-left: 0;
+    margin-bottom: 1rem;
     border-width: .2rem;
     border: solid #f7f7f9;
 }
 .sk-highlight{
     margin-bottom: 1rem;
-    background-color: #f7f7f9;
+    background-color: #2c292d;
 }
 .sk-highlight pre code {
     font-size: inherit;
@@ -32,7 +33,4 @@ pre code {
 }
 .s {
     color: #d44950;
-}
-.nt {
-    color: #2f6f9f;
 }
