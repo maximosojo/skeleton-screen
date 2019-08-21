@@ -1,0 +1,38 @@
+.sk-example {
+    padding: 1.5rem;
+    margin-right: 0;
+    margin-left: 0;
+    border-width: .2rem;
+    border: solid #f7f7f9;
+}
+.sk-highlight{
+    margin-bottom: 1rem;
+    background-color: #f7f7f9;
+}
+.sk-highlight pre code {
+    font-size: inherit;
+    color: #212529;
+}
+pre code {
+    font-size: inherit;
+    color: inherit;
+    word-break: normal;
+}
+.nt {
+    color: #2f6f9f;
+}
+.na {
+    color: #4f9fcf;
+}
+.s {
+    color: #d44950;
+}
+.na {
+    color: #4f9fcf;
+}
+.s {
+    color: #d44950;
+}
+.nt {
+    color: #2f6f9f;
+}
