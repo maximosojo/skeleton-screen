@@ -1,0 +1,15 @@
+.skeleton-img{
+    float: left;
+    width: 10rem;
+    height: 10rem;
+    background-color: #ccc;            
+    margin: 8px;
+}
+
+.skeleton-img.rounded{
+    border-radius: 25%;
+}
+
+.skeleton-img.circle{
+    border-radius: 50%;
+}
